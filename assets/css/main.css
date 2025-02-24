@@ -2,6 +2,8 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700|Josefin+Sans:400,600,700,400italic,600italic,700italic|Ubantu:400,600,700,400italic,600italic,700italic|Merriweather:400,600,400italic,600italic,700");
 @import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400;0,700;1,400;1,700");
 @import url("https://fonts.googleapis.com/css?family=Marcellus:400,600");
+@import url("https://fonts.googleapis.com/css?family=Space+Mono::ital,wght@0,400;0,700;1,400;1,700");
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:200,400,600,700,900");
 /*
 	Editorial by HTML5 UP
 	html5up.net | @ajlkn
@@ -11,7 +13,7 @@ html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, underline, sub, subtitle, sup, tt, var, b,
+small, strike, strong, underline, sub, subtitle, subt1, sup, tt, var, b,
 u, i, center, dl, dt, dd, ol, ul, li, fieldset,
 form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
@@ -134,10 +136,19 @@ em, i {
 
 p {
   font-size:15pt;
-  margin: 0 0 2em 0; }
+  margin: 0 0 0.8em 0; }
 
 subtitle {
-  font-size:8;
+  font-family: "Inconsolata", sans-serif;
+  font-weight: 700;
+  font-size:15pt;
+  color: #C2C5CC;
+}
+
+subt1 {
+  font-family: "Inconsolata", sans-serif;
+  font-weight: 900;
+  font-size:10pt;
   color: #C2C5CC;
 }
 
@@ -1285,7 +1296,8 @@ ul {
   margin: 0 0 2em 0;
   padding-left: 1em; }
   ul li {
-    padding-left: 0.5em; }
+    padding-left: 0.5em;
+    font-size: 15pt}
   ul.alt {
     list-style: none;
     padding-left: 0; }
@@ -1984,25 +1996,25 @@ button,
     margin: 0 auto;
     max-width: 110em; }
     #main > .inner > section {
-      padding: 6em 0 4em 0 ;
+      padding: 4em 0 2em 0 ;
       border-top: solid 2px rgba(210, 215, 217, 0.75); }
       #main > .inner > section:first-of-type {
         border-top: 0 !important; }
   @media screen and (max-width: 1680px) {
     #main > .inner {
-      padding: 0 5em 0.1em 5em ; }
+      padding: 0 3em 0.1em 2em ; }
       #main > .inner > section {
-        padding: 5em 0 3em 0 ; } }
+        padding: 3em 0 2em 0 ; } }
   @media screen and (max-width: 1280px) {
     #main > .inner {
-      padding: 0 4em 0.1em 4em ; }
+      padding: 0 3em 0.1em 2em ; }
       #main > .inner > section {
         padding: 4em 0 2em 0 ; } }
   @media screen and (max-width: 736px) {
     #main > .inner {
-      padding: 0 2em 0.1em 2em ; }
+      padding: 0 1em 0.1em 1em ; }
       #main > .inner > section {
-        padding: 3em 0 1em 0 ; } }
+        padding: 2em 0 1em 0 ; } }
 
 /* Sidebar */
 #search form {
