@@ -1373,7 +1373,7 @@ ul.icons {
   padding-left: 0; }
   ul.icons li {
     display: inline-block;
-    padding: 0 1em 0 0; }
+    padding: 0 0.5em 0 0; }
     ul.icons li:last-child {
       padding-right: 0; }
     ul.icons li .icon {
@@ -1520,22 +1520,21 @@ button,
   -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   background-color: transparent;
-  border-radius: 0.375em;
+  border-radius: 0.45em;
   border: 0;
-  box-shadow: inset 0 0 0 2px #0077B6;
+  box-shadow: inset 0 0 0 3px #0077B6;
   color: #0077B6 !important;
   cursor: pointer;
   display: inline-block;
   font-family: "Inconsolata", sans-serif;
-  font-size: 0.8em;
+  font-size: 1em;
   font-weight: 700;
-  height: 3.5em;
+  height: 2em;
   letter-spacing: 0.075em;
-  line-height: 3.5em;
-  padding: 0 2.25em;
+  line-height: 2em;
+  padding: 0 1em;
   text-align: center;
   text-decoration: none;
-  text-transform: uppercase;
   white-space: nowrap; }
   input[type="submit"]:hover,
   input[type="reset"]:hover,
@@ -1566,7 +1565,7 @@ button,
   input[type="button"].small,
   button.small,
   .button.small {
-    font-size: 0.6em; }
+    font-size: 0.8em; }
   input[type="submit"].large,
   input[type="reset"].large,
   input[type="button"].large,
