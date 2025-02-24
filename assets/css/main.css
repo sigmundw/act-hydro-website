@@ -2012,9 +2012,9 @@ button,
         padding: 4em 0 2em 0 ; } }
   @media screen and (max-width: 736px) {
     #main > .inner {
-      padding: 0 1em 0.1em 1em ; }
+      padding: 0 2em 0.1em 2em ; }
       #main > .inner > section {
-        padding: 2em 0 1em 0 ; } }
+        padding: 2em 0 2em 0 ; } }
 
 /* Sidebar */
 #search form {
